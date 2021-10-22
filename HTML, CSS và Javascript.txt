@@ -1,0 +1,63 @@
+HTML là cấu trúc của 1 trang web
+CSS cách hiển thị trang web đó ra sao
+
+
+2. CSS:
+Attribute là thuộc tính bổ sung cho 1 tag
+
+ID sẽ là # + tên ID. Vd: id=main => #main {}
+Class sẽ là . + tên class. Vd: class=wrap => .wrap {}
+Cách group: chọn các thẻ p có class là center 
+p.center { }
+Chọn toàn bộ các element: dùng dấu * => * {}
+Nếu cái thuộc tính giống nhau thì ta dùng dấu phẩy: h1,h2,h3 {}
+Trong 1 HTML có thể sử dụng nhiều class nhưng chỉ nên dùng 1 id mà thôi
+Trọng số:
+Khi cùng chọn ID sẽ có trọng số cao hơn rồi mới đến class > elements
+Highest 			Lowest
+	0,	0,	1,	1
+Inline Styles, IDs, Classes, Elements
+Cascade là thằng sau sẽ đè thằng trước 
+
+Có 3 cách viết CSS: inline css, internal css và external css
+
+Cách viết padding, margin: top - right - bottom - left
+position trong CSS: position: absolute; (dựa vào vị trí của thằng cha )
+
+Nâng cao của CSS: grid, flexbox, responsive, animation
+
+
+3. Javascript:
+Xuất ra màn hình và console
+document.write('');
+console.log('');
+Biến chứa các dữ liệu:
+Khai báo biến bằng var. Trong ES6 dùng let và const (hằng số giá trị k thay đổi khi chạy)
+Các kiểu dữ liêuj: string, number, boolean (true or false), đối tượng (object)
+Toán tử (Operation): +, -, *, /, ++, --, ==, !=, ...
+Object: ví dụ: let hien= { name: 'Hien Ngo', age: 24, hobby: 'Play game'
+Cách viết hàm: tên hàm: function(). Ví dụ: sing: function(){ }
+String (Chuỗi): cũng là 1 object. Ví dụ: let star= 'Hom nay troi dep'
+Các phương thức:
+Check độ dài chuỗi: tên object.length. Ví dụ: console.log(hien.length)
+Cắt chuỗi: tên object.split. Ví dụ: console.log(hien.split(' ')
+Cắt chuỗi vị trí nào tới vị trí nào: substring
+Check chuỗi có cái mình cần tìm không: includes
+Array(mảng):
+ví dụ: const traicay = new Array('xoai', 'chuoi', 'cam')
+Các phương thức điều khiển (Control Statment)
+If...else, do...while, switch ...case
+Default (switch...case) đóng vai trò xử lý những case ngoại lệ khi biểu thức điều kiện không thỏa mãn bất cứ case nào.
+const input = 2
+           switch(input){
+               case 1:
+                   console.log()
+                   break;
+                case 2:
+                console.log()
+                   break;
+                case 3:
+                    break;
+                default:
+                    break;
+Vòng lặp (Loop): for/while
